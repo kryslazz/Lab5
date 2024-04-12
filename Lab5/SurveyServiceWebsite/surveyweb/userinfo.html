@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+    <head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Web development" />
+		<meta name="keywords" content="HTML (Part 1 – Content - Form)" />
+		<meta name="author" content="put your name here" />
+		
+        <title>Web Development Survey</title>
+	</head>
+	
+    <body>
+        <h1>Unit Delivery Survey</h1>
+       
+       <p>
+        Please enter your Name, Gender and Degree Program below:
+        </p>
+        <br>
+
+        <form id="survey" method="post" 
+        action="http://mercury.swin.edu.au/it000000/cos10005/surveytest.php">
+		
+          
+
+        <fieldset style="width:400px">
+            <legend><strong>Personal Details</strong></legend>
+        
+        
+            <p>
+            <Label>Name (Optional):</label> 
+            <Input type="text" name="name" maxlength="30" size="30"/>
+            </p>
+
+            <p>Gender:<br/>
+            <input type="radio" name="Gender" value="Male"/>Male
+            <input type="radio" name="Gender" value="Female"/>Female
+            </p>
+            
+            <p>
+            <label>Degree Program:</label>
+            <select name="Program">
+            <option value="IT"
+            Selected="Selected">IT</option>
+            <option value="Multimedia">Multimedia</option>
+            <option value="Design">Design</option>
+            </select>
+            </p>
+            
+            <p>
+             <input type="Submit" value="Submit"/>
+             <input type="Reset" value="Reset"/>
+            </p>
+
+        </fieldset>
+        
+        </form>
+
+        <a href="index.html">Back</a> | <a href="part1.html">Next</a>
+    </body>
+</html>

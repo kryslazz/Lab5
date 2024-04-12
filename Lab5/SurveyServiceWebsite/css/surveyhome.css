@@ -1,0 +1,108 @@
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  line-height: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0%;
+    width: 100%;
+    padding: 30px;
+    background-color: #000080;
+    color: #ffffff;
+    font-family: "Audiowide", sans-serif;
+    font-variant: small-caps;
+    font-size: 3.5em; 
+    text-shadow: #aaa 2px 2px 2px;
+}
+
+h2 {
+    text-align: left;
+    margin: 0px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-family: "Audiowide", sans-serif;
+    font-variant: small-caps;
+    font-size: 2em; 
+}
+
+p  {
+    text-align: left;
+    margin: 0px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+nav {
+    background-color: darkgreen;
+    width: 100%;
+    float: left;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+    
+li {
+    float: left;
+    width: 6em;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border-style: solid;
+    border: yellow;
+    border-width: 1px;
+
+   
+}
+
+li a:hover  {
+    background: Brown;
+}
+
+
+article {
+float: left;
+width:65%;
+background: lightgrey;
+color: Black;
+
+}
+
+section {
+box-shadow: 3px 3px 3px 2px #797979;    
+width:55%;
+margin:30px;
+background-color: darkgray;
+color:black
+}
+
+aside {
+    float:right;
+    width:30%;
+    font-size: 8px;
+    font-style: italic;
+    background-color: lightblue;
+    color: black;    
+    
+    box-shadow: 3px 3px 3px 2px #797979;
+}
+
+footer {
+    clear: both;
+   
+    background-color: navy;
+    color: white;
+    width: 100%;
+}
+
+
+
+
